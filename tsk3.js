@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("p").click(function(){
+    $("p").on('click',function(){
        alert("Clicked Me");
     });
 });
