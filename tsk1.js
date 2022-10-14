@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    // $(".test").animate({color:'red'},5000);
-    $("p").last().animate({color:'red'},1000);
+    $(".test p:first-child").animate({color:'red'},5000);
+    $(".test p:last-child").animate({color:'red'},5000);
    
 });
